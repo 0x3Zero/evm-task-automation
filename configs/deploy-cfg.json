@@ -1,0 +1,19 @@
+{
+  "dht": {
+    "modules": [
+      {
+        "name": "sqlite3",
+        "path": "artifacts/sqlite3.wasm",
+        "preopened_files": ["./tmp"],
+        "mapped_dirs": [["tmp", "./tmp"]],
+        "logger_enabled": true
+      },
+      {
+        "name": "evm_block_listener",
+        "path": "artifacts/evm_block_listener.wasm",
+        "logger_enabled": true,
+        "mem_page_count": 100
+      }
+    ]
+  }
+}

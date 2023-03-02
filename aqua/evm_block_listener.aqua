@@ -1,0 +1,3 @@
+module EvmBlockListener declares *
+
+service EvmBlockListener("evm_block_listener"):
